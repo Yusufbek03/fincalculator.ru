@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fincalculator.ru/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all search engines to access CSS and JS files
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.ico
+Allow: *.webp
+
+# Block access to admin and sensitive files
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: *.log
+Disallow: /js/sw.js
+
+# Block access to development files
+Disallow: /src/
+Disallow: /build/
+Disallow: /dist/
+Disallow: /.env
+Disallow: /package.json
+Disallow: /package-lock.json
+
+# Allow access to manifest and service worker
+Allow: /manifest.json

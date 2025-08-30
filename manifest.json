@@ -1,0 +1,47 @@
+{
+    "name": "FINCALCULATOR.RU - Кредитный калькулятор",
+    "short_name": "FinCalculator",
+    "description": "Быстрый и точный расчет кредита онлайн. Рассчитайте ежемесячный платеж, переплату и график погашения.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3a9d3a",
+    "orientation": "portrait-primary",
+    "categories": ["finance", "productivity", "utilities"],
+    "lang": "ru",
+    "dir": "ltr",
+    "icons": [{
+            "src": "icons/icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [{
+            "src": "screenshot-desktop.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Кредитный калькулятор на десктопе"
+        },
+        {
+            "src": "screenshot-mobile.png",
+            "sizes": "375x667",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Кредитный калькулятор на мобильном"
+        }
+    ],
+    "shortcuts": [{
+        "name": "Кредитный калькулятор",
+        "short_name": "Кредит",
+        "description": "Рассчитать кредит",
+        "url": "/",
+        "icons": [{
+            "src": "icons/icon.svg",
+            "sizes": "any"
+        }]
+    }],
+    "related_applications": [],
+    "prefer_related_applications": false
+}
